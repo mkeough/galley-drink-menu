@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <header className="test">
-        <h1>Welcome to my SPA</h1>
+        <h1></h1>
         <nav className="navbar">
           <ul>
             <li>
@@ -24,7 +24,7 @@ const App = () => {
               <Link to="/2"><p>Craft Cocktails</p></Link>
             </li>
             <li>
-              <Link to="/3"><p>Beer</p></Link>
+              <Link to="/3"><p>Beer/Wine</p></Link>
             </li>
             <li>
               <Link to="/4"><p>Rum</p></Link>

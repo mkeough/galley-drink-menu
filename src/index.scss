@@ -21,11 +21,14 @@ header.test {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 45vh;
+  height: 55vh;
 }
 .bourbon {
   padding-top: 0rem;
   margin: 0;
+}
+.bourbon h2 {
+  margin-bottom: 0rem;
 }
 .bourbon li {
   list-style: none;
@@ -33,7 +36,7 @@ header.test {
   justify-content: center;
   padding-right: 2rem;
   padding-top: 0rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding-bottom: 0rem;
 }
 
@@ -41,11 +44,14 @@ main.home {
   background-image: url(./components/background.png);
   background-size: contain;
   padding-right: 1rem;
+  padding-bottom: 5rem;
 }
 
 main h1 {
-  padding-top: 0;
-  margin-top: 0;
+  // padding-top: 0;
+  // margin-top: 0;
+  // margin-bottom: 0rem;
+  // padding-bottom: 0rem;
 }
 .top {
   padding-top: 5rem;
@@ -54,9 +60,28 @@ main h1 {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  padding-right: 2rem;
-  padding-top: 5rem;
+  padding-right: 1rem;
+  padding-top: 9.5rem;
+  padding-left: 1rem;
 }
 p {
   color: white;
+}
+main.tequila {
+  background-image: url(./components/background.png);
+  background-size: contain;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+}
+.topofdrinks {
+  padding-bottom: 0rem;
+}
+li .cocktail {
+  color: black;
+}
+.cocktail {
+  font-size: 16px;
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
