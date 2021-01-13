@@ -21,7 +21,7 @@ header.test {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 40vh;
+  height: 45vh;
 }
 .bourbon {
   padding-top: 0rem;
@@ -95,9 +95,9 @@ li .cocktail {
     height: 55vh;
   }
 }
-@media (max-height: 675px) {
+@media (max-height: 670px) {
   .test {
-    height: 55vh;
+    height: 57vh;
     .navbar ul {
       padding-top: 9rem;
     }
@@ -113,7 +113,7 @@ li .cocktail {
 }
 @media (min-height: 800px) {
   .test {
-    height: 45vh;
+    height: 43vh;
     .navbar ul {
       padding-top: 9rem;
     }
