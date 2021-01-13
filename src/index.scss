@@ -21,7 +21,7 @@ header.test {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 45vh;
+  height: 40vh;
 }
 .bourbon {
   padding-top: 0rem;
@@ -85,7 +85,7 @@ li .cocktail {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-@media (min-width: 380px) {
+@media (min-width: 375px) {
   .test {
     background-image: url(./components/mainbackground.png);
     -webkit-background-size: cover;
@@ -93,5 +93,29 @@ li .cocktail {
     -o-background-size: cover;
     background-size: cover;
     height: 55vh;
+  }
+}
+@media (max-height: 675px) {
+  .test {
+    height: 55vh;
+    .navbar ul {
+      padding-top: 9rem;
+    }
+  }
+}
+@media (max-width: 338px) {
+  .test {
+    height: 55vh;
+    .navbar ul {
+      padding-top: 7rem;
+    }
+  }
+}
+@media (min-height: 800px) {
+  .test {
+    height: 45vh;
+    .navbar ul {
+      padding-top: 9rem;
+    }
   }
 }
