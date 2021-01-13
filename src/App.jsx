@@ -1,38 +1,46 @@
 import React from 'react'
-import { Link, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
+import Page from './pages/Page'
+import Page2 from './pages/Page2'
+import Bourbon from './pages/Bourbon'
+import Page3 from './pages/Page3'
+import Page4 from './pages/Page4'
+import NotFound from './pages/NotFound'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <header>
-        <h1>Welcomlkjerewbkjlg</h1>
-        <nav>
+    <Router>
+      <header className="test">
+        <h1>Welcome to my SPA</h1>
+        <nav className="navbar">
           <ul>
             <li>
-              <Link to="/">Go Home</Link>
+              <Link to="/"><p>Bourbon</p></Link>
             </li>
             <li>
-              <Link to="/1">Page 1</Link>
+              <Link to="/1"><p>Tequila</p></Link>
             </li>
             <li>
-              <Link to="/2">Page 2</Link>
+              <Link to="/2"><p>Craft Cocktails</p></Link>
+            </li>
+            <li>
+              <Link to="/3"><p>Beer</p></Link>
+            </li>
+            <li>
+              <Link to="/4"><p>Rum</p></Link>
             </li>
           </ul>
         </nav>
       </header>
       <Switch>
-        <Route exact path="/">
-          Home
-        </Route>
-        <Route exact path="/1">
-          Page 1
-        </Route>
-        <Route exact path="/2">
-          Page 2
-        </Route>
-        <Route path="*">Not Found</Route>
+        <Route exact path="/" component={Bourbon}></Route>
+        <Route exact path="/1" component={Page}></Route>
+        <Route exact path="/2" component={Page2}></Route>
+        <Route exact path="/3" component={Page3}></Route>
+        <Route exact path="/4" component={Page4}></Route>
+        <Route path="*" component={NotFound}></Route>
       </Switch>
-    </>
+    </Router>
   )
 }
 
