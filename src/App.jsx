@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Welcome to my SPA</h1>
+        <h1>Welcomlkjerewbkjlg</h1>
         <nav>
           <ul>
             <li>
