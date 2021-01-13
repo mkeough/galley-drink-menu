@@ -21,7 +21,7 @@ header.test {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 55vh;
+  height: 45vh;
 }
 .bourbon {
   padding-top: 0rem;
@@ -61,7 +61,7 @@ main h1 {
   justify-content: space-between;
   list-style: none;
   padding-right: 1rem;
-  padding-top: 9.5rem;
+  padding-top: 10.5rem;
   padding-left: 1rem;
 }
 p {
@@ -84,4 +84,14 @@ li .cocktail {
   text-align: center;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+@media (min-width: 380px) {
+  .test {
+    background-image: url(./components/mainbackground.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 55vh;
+  }
 }
