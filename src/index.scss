@@ -113,14 +113,9 @@ li .cocktail {
 }
 @media (min-height: 750px) {
   .test {
-    height: 45vh;
+    height: 43vh;
     .navbar ul {
       padding-top: 9rem;
     }
-  }
-}
-@media (min-height: 1000px) {
-  .test {
-    height: 10vh;
   }
 }

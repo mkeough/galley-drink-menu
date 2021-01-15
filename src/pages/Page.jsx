@@ -6,36 +6,40 @@ const Page = () => {
       
   <ul className="bourbon">
     <li><h2>Tequila</h2></li>
-    <li className="top">Camarena</li>
-    <li>Cincoro Anejo</li>
-    <li>Cincoro Blanco</li>
-    <li>Cincoro Repo</li>
-    <li>Corazon Repo</li>
-    <li>Corazon Silver</li>
-    <li>Dobel</li>
-    <li>Don Julio 1942</li>
-    <li>Don Julio Blanco</li>
-    <li>Don Julio Repo</li>
-    <li>Espolon Blanco</li>
-    <li>Espolon Repo</li>
-    <li>Hiatus Anejo</li>
-    <li>Hiatus Blanco</li>
-    <li>Hiatus Repo</li>
-    <li>Herradura Ultra Anejo</li>
-    <li>Milagro Repo</li>
-    <li>Milagro Silver</li>
-    <li>Milagro Select Repo</li>
-    <li>Milagro Select Silver</li>
-    <li>Patron Anejo</li>
-    <li>Patron Repo</li>
-    <li>Patron Silver</li>
+    <li className="top">Camarena - $7</li>
+    <li>Casamigos- -$10</li>
+    <li>Casamigos Repo - $10</li>
+    <li>Cincoro Anejo - $30</li>
+    <li>Cincoro Blanco - $15</li>
+    <li>Cincoro Repo - $20</li>
+    <li>Corazon Repo - $5</li>
+    <li>Corazon Silver - $5</li>
+    <li>Dobel - $5</li>
+    <li>Don Julio 1942 - $40</li>
+    <li>Don Julio Blanco - $11</li>
+    <li>Don Julio Repo $12</li>
+    <li>Espolon Blanco $8.50</li>
+    <li>Espolon Repo - $8.50</li>
+    <li>Herradura Ultra Anejo - $14</li>
+    <li>Hiatus Anejo - $14</li>
+    <li>Hiatus Blanco - $9</li>
+    <li>Hiatus Repo - $10</li>
+    
+    <li>Milagro Repo - $7.50</li>
+    <li>Milagro Silver $7</li>
+    <li>Milagro Select Repo - $12</li>
+    <li>Milagro Select Silver - $11</li>
+    <li>Patron Anejo - $12</li>
+    <li>Patron Repo - $10</li>
+    <li>Patron Silver - $9</li>
     <li><h2>Mezcal</h2></li>
-    <li>400 Conejos</li>
-    <li>Del Maguey Vida</li>
-    <li>Del Maguey Tobala</li>
-    <li>Ilegal Joven</li>
-    <li>Ilegal Repo</li>
-    <li>Montellobos</li>
+    <li>400 Conejos - $7</li>
+    <li>Del Maguey Tobala - $35</li>
+    <li>Del Maguey Vida - $11</li>
+    
+    <li>Ilegal Joven - $11</li>
+    <li>Ilegal Repo - $12</li>
+    <li>Montellobos - $11</li>
     <li></li>
     <li></li>
   </ul>

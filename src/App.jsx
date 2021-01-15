@@ -27,7 +27,7 @@ const App = () => {
               <Link to="/3"><p>Beer/Wine</p></Link>
             </li>
             <li>
-              <Link to="/4"><p>Rum</p></Link>
+              {/* <Link to="/4"><p>Rum</p></Link> */}
             </li>
           </ul>
         </nav>
