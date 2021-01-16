@@ -8,59 +8,58 @@ const Page3 = () => {
         <li id="2"><h2>Beer & Wine</h2></li>
         
         <li><h3>Drafts</h3></li>
-        <li>3 DAUGHTER’S BEACH BLOND - $6</li>
-        <li>3 DAUGHTER’S KEYLIME CIDER - $6</li>
-        <li>BIG STORM AMBER - $6</li>
-        <li>BLUE POINT LAGER - $5</li>
-        <li>BUD LITE - $3.50</li>
-        
-        <li>C.T. UNHOLY TRIPLE - $8</li>
-        <li>ESCAPE IPA - $7</li>
-        <li>GREEN BENCH PILS - $6</li>
-        <li>GREEN BENCH SUNSHINE IPA - $7</li>
-        <li>GRONKZILLA IPA - $7</li>
-        <li>GUINNESS - $6</li>
-        <li>MANGO CART - $6</li>
-        <li>NATTY LIGHT - $3</li>
-        <li>OLD ELEPHANT IPA - $7</li>
-        <li>RAPP GOSE SOUR - $6</li>
-        <li>REEF DONKEY APA - $7</li>
-        <li>ST. PETE WHEAT - $6</li>
-        <li>SWEET WATER 420 APA - $5</li>
-        <li>YUENLING - $3.50</li>
+        <li>3 DAUGHTER’S BEACH BLOND</li>
+        <li>3 DAUGHTER’S KEYLIME CIDER</li>
+        <li>BIG STORM AMBER</li>
+        <li>BLUE POINT LAGER</li>
+        <li>BUD LITE</li>
+        <li>C.T. UNHOLY TRIPLE</li>
+        <li>ESCAPE IPA</li>
+        <li>GREEN BENCH PILS</li>
+        <li>GREEN BENCH SUNSHINE IPA</li>
+        <li>GRONKZILLA IPA</li>
+        <li>GUINNESS</li>
+        <li>MANGO CART</li>
+        <li>NATTY LIGHT</li>
+        <li>OLD ELEPHANT IPA</li>
+        <li>RAPP GOSE SOUR</li>
+        <li>REEF DONKEY APA</li>
+        <li>ST. PETE WHEAT</li>
+        <li>SWEET WATER 420 APA</li>
+        <li>YUENLING</li>
         <li><h3>Ask About Our Seasonal Drafts</h3></li>
         <li><h3>Botles & Cans</h3></li>
-        <li>All Day IPA - $5.25</li>
-        <li>Angry Orchard - $5</li>
-        <li>Bench Life - $5.25</li>
-        <li>Bud - $4.50</li>
-        <li>Bud Light $4.50</li>
-        <li>Coors Lite $4</li>
-        <li>Corona - $5</li>
-        <li>Corona Light - $5</li>
-        <li>Corona Premiere - $5</li>
-        <li>Fat Tire - $6</li>
-        <li>Fl. Cracker - $5</li>
-        <li>Sweat Water G13 - $7</li>
-        <li>Heineken - $5</li>
-        <li>Heineken Light - $5</li>
-        <li>High Noon - $5</li>
-        <li>Invasion C.C.B. - $5.50</li>
-        <li>Jia Alai - $5</li>
-        <li>Kaliber N/A - $5</li>
-        <li>Landshark - $4</li>
-        <li>Maduro - $5</li>
-        <li>Mango Cart - $6</li>
-        <li>Miller Lite - $4</li>
-        <li>Modelo - $5</li>
-        <li>Naturday - $3</li>
-        <li>Negro Modelo $5</li>
-        <li>Pacifico $5</li>
-        <li>Shocktop $4</li>
-        <li>Stella - $5</li>
-        <li>Ultra - $3.50</li>
-        <li>Victoria - $5</li>
-        <li>White Claw- $5.25</li>
+        <li>All Day IPA</li>
+        <li>Angry Orchard</li>
+        <li>Bench Life</li>
+        <li>Bud</li>
+        <li>Bud Light</li>
+        <li>Coors Lite</li>
+        <li>Corona</li>
+        <li>Corona Light</li>
+        <li>Corona Premiere</li>
+        <li>Fat Tire</li>
+        <li>Fl. Cracker</li>
+        <li>Sweat Water G13</li>
+        <li>Heineken</li>
+        <li>Heineken Light</li>
+        <li>High Noon</li>
+        <li>Invasion C.C.B.</li>
+        <li>Jia Alai</li>
+        <li>Kaliber N/A</li>
+        <li>Landshark</li>
+        <li>Maduro</li>
+        <li>Mango Cart</li>
+        <li>Miller Lite</li>
+        <li>Modelo</li>
+        <li>Naturday</li>
+        <li>Negro Modelo</li>
+        <li>Shocktop </li>
+        <li>Pacifico </li>
+        <li>Stella</li>
+        <li>Ultra</li>
+        <li>Victoria</li>
+        <li>White Claw</li>
         <li id="1"><h4>House Wines</h4></li>
         <li>$7 Glass / $28 Bottle</li>
         <li>Maschio Prosecco</li>
