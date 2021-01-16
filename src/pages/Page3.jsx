@@ -8,7 +8,7 @@ const Page3 = () => {
         <li id="2"><h2>Beer & Wine</h2></li>
         
         <li><h3>Drafts</h3></li>
-        <li>3 DAUGHTER’S BEACH BLOND</li>
+        <li>3 DAUGHTER’S BEACH BLONDE</li>
         <li>3 DAUGHTER’S KEYLIME CIDER</li>
         <li>BIG STORM AMBER</li>
         <li>BLUE POINT LAGER</li>
