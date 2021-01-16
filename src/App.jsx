@@ -15,16 +15,16 @@ const App = () => {
         <nav className="navbar">
           <ul>
             <li>
-              <Link to="/"><p>Bourbon</p></Link>
+              <Link className="link" to="/"><p><strong>Craft Cocktails</strong></p></Link>
             </li>
             <li>
-              <Link to="/1"><p>Tequila</p></Link>
+              <Link className="link" to="/1"><p><strong>Beer/Wine</strong></p></Link>
             </li>
             <li>
-              <Link to="/2"><p>Craft Cocktails</p></Link>
+              <Link className="link" to="/2"><p><strong>Bourbon</strong></p></Link>
             </li>
             <li>
-              <Link to="/3"><p>Beer/Wine</p></Link>
+              <Link className="link" to="/3"><p><strong>Tequila</strong></p></Link>
             </li>
             <li>
               {/* <Link to="/4"><p>Rum</p></Link> */}
@@ -33,10 +33,10 @@ const App = () => {
         </nav>
       </header>
       <Switch>
-        <Route exact path="/" component={Bourbon}></Route>
-        <Route exact path="/1" component={Page}></Route>
-        <Route exact path="/2" component={Page2}></Route>
-        <Route exact path="/3" component={Page3}></Route>
+        <Route exact path="/" component={Page2}></Route>
+        <Route exact path="/1" component={Page3}></Route>
+        <Route exact path="/2" component={Bourbon}></Route>
+        <Route exact path="/3" component={Page}></Route>
         <Route exact path="/4" component={Page4}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>

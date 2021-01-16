@@ -5,7 +5,8 @@ const Page3 = () => {
   <main className="home" >
       
       <ul className="bourbon">
-        <li><h2>Beer & Wine</h2></li>
+        <li id="2"><h2>Beer & Wine</h2></li>
+        
         <li><h3>Drafts</h3></li>
         <li>3 DAUGHTER’S BEACH BLOND - $6</li>
         <li>3 DAUGHTER’S KEYLIME CIDER - $6</li>
@@ -60,7 +61,7 @@ const Page3 = () => {
         <li>Ultra - $3.50</li>
         <li>Victoria - $5</li>
         <li>White Claw- $5.25</li>
-        <li><h4>House Wines</h4></li>
+        <li id="1"><h4>House Wines</h4></li>
         <li>$7 Glass / $28 Bottle</li>
         <li>Maschio Prosecco</li>
         <li>Aison Nicholas Rose</li>
@@ -98,7 +99,7 @@ const Page3 = () => {
         <li>Alexander Valley, CA $12/49.95</li>
         <li>Silverado Cabernet</li>
         <li>Napa Valley, CA $99.95</li>
-        <li></li>
+        <li><a href="#2">Back To Top</a></li>
         <li></li>
         <li></li>
         <li></li>
